@@ -6,5 +6,6 @@ Gem::Specification.new do |s|
   s.description = "Juego de gato"
   s.authors     = ["Luis Daniel Parga Cruz"]
   s.email       = 'iscluisdaniel@gmail.com'
-  s.files = Dir["{lib}/**/*.rb", "bin/*", "LICENSE", "*.md"]
+  s.files       = ["lib/board.rb","lib/win.rb","lib/TickTackToe.rb"]
+  s.homepage    = "https://github.com/DanielISC/TickTackToe_Gem"
 end
